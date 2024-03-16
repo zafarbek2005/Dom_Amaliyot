@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none !important;
+}
+
+.conteiner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+body {
+  background-image: url(./img/bg-img.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .int {
+  position: relative;
+  left: 650px;
+  top: 80px;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  background: rgb(9, 189, 255);
+  border-radius: 10px;
+}
+body .int form {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 50px;
+}
+body .int form #r {
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+}
+body .int form #qw2 {
+  position: relative;
+  top: 50px;
+  width: 419px;
+  height: 150px;
+  border-radius: 10px;
+  border: none;
+}
+body .int form #qw {
+  position: relative;
+  right: -2px;
+  width: 419px;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+}
+body .int form #qw3 {
+  position: relative;
+  top: 100px;
+  width: 200px;
+  height: 30px;
+  border-radius: 3px solid;
+  border: none;
+  background: rgb(0, 76, 255);
+  color: white;
+}
+body .card {
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+body .card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+body .card h2, body .card p {
+  margin: 0;
+  padding: 10px;
+}
+body .card .socials {
+  display: flex;
+  justify-content: space-around;
+}
+body .card .socials a {
+  color: #000;
+  text-decoration: none;
+}
+body .card button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+body .card button:hover {
+  background-color: #fff;
+  color: #000;
+}
+body .trt {
+  width: 600px;
+  height: 700px;
+  position: relative;
+  top: -490px;
+  left: -180px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}/*# sourceMappingURL=style.css.map */
