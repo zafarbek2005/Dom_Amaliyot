@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none !important;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+body {
+    background-image: url(./img/bg-img.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .int {
+        position: relative;
+        left: 650px;
+        top: 80px;
+        text-align: center;
+        width: 500px;
+        height: 500px;
+        background: rgb(34, 229, 255);
+        border-radius: 10px;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            position: relative;
+            top: 50px;
+
+            input, textarea {
+                width: 419px;
+                height: 30px;
+                border-radius: 3px;
+                border: none;
+                padding: 5px;
+            }
+
+            textarea {
+                height: 150px;
+            }
+
+            button {
+                width: 200px;
+                height: 30px;
+                border-radius: 3px solid;
+                border: none;
+                background: rgb(0, 76, 255);
+                color: white;
+                cursor: pointer;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: #004cff;
+                }
+            }
+        }
+    }
+
+    .trt {
+        width: 600px;
+        height: 700px;
+        position: relative;
+        top: -490px;
+        left: -180px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        margin: 20px;
+        width: 250px;
+        height: 350px;
+        border-radius: 15px;
+        background-color: #ffffff;
+        padding: 20px;
+        text-align: center;
+
+        img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+
+        h2, p {
+            margin: 0;
+            padding: 10px;
+        }
+
+        button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                background-color: #fff;
+                color: #000;
+            }
+        }
+    }
+}
